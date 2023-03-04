@@ -17,7 +17,7 @@ Main.py         //Contains the main game loop.
 Assets.py       //Handles the game assets, including images, sprite classes, and other resources.
 Audio.py        //Handles all game sound effects.
 Interface.py    //Manages the game's graphical user interface components.
-Particles       //Contains the dust effect particles classes.
+Particles.py    //Contains the dust effect particles classes.
 ```
 This approach allowed me to focus on each component separately, making it simpler to debug and optimize.
 ## Requirements
@@ -26,3 +26,9 @@ I already included a ```requirements.txt``` file so you can load it easily using
 ```
 $ pip install -r requirements.txt
 ```
+## How to play?
+>You will be playing as Chuck McGill placed  in a courtroom. Your mission is to prove that it was 1216 and not 1261. In order to do this, you must collect the numbers in the correct order. Each time you do that, you will earn a point. However, if you collect the numbers in the wrong order, you will lose a life.
+
+>As you progress through the game, your score will increase. Once you hit a score that is a multiple of 5, Huell will enter the room and start throwing batteries at you. You must dodge the batteries to avoid losing any lives.
+
+>Use the Left / Right arrow keys on your keyboard to move around the courtroom.
