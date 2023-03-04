@@ -1,5 +1,8 @@
 # 1216 : A Chuck McGill Adventure
 A Mini game I made in python using the Pygame module.
+## Game screenshots 
+<img src="/Screenshots/preview1.gif" width="400px" height="400px"></img>
+<img src="/Screenshots/preview.gif" width="400px" height="400px"></img>
 <details>
 <summary><b>Context</b></summary>
 The inspiration for this game was drawn from a popular scene in the hit TV series "Better Call Saul", specifically S03E05, where Chuck McGill goes into a meltdown and delivers the iconic "Chicanery speech".  
