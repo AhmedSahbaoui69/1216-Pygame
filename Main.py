@@ -39,9 +39,9 @@ def mouvement_code():
     # KEYUP CONDITIONS
     if event.type == pygame.KEYUP:
         if event.key == pygame.K_LEFT and chuck.velo < 0:
-            chuck.velo *= 0.69 # haha sex number
+            chuck.velo *= 0.75 # haha sex number
         if event.key == pygame.K_RIGHT and chuck.velo > 0:
-            chuck.velo *= 0.69 # 
+            chuck.velo *= 0.75 # 
     # Collision with borders
     if chuck.x < 0:
         chuck.x = 0
@@ -104,6 +104,7 @@ old_audio, new_audio = random.choice(Audio.scored), random.choice(Audio.scored)
 while main:
     ################################## Normal Stage ##################################
     while normal_stage == True and huell_stage == False:
+        boss.y = -144 # reset huell postion each time the player leaves his stage
         mouvement_code()
         chuck_rect = pygame.Rect(chuck.x, chuck.y, 64, 64) # Chuck rectangle
         # Generate numbers & their rectangles
