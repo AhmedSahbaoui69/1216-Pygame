@@ -39,9 +39,9 @@ def mouvement_code():
     # KEYUP CONDITIONS
     if event.type == pygame.KEYUP:
         if event.key == pygame.K_LEFT and chuck.velo < 0:
-            chuck.velo *= 0.75 # haha sex number
+            chuck.velo *= 0.75
         if event.key == pygame.K_RIGHT and chuck.velo > 0:
-            chuck.velo *= 0.75 # 
+            chuck.velo *= 0.75
     # Collision with borders
     if chuck.x < 0:
         chuck.x = 0
