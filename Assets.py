@@ -23,8 +23,8 @@ pattern = [num_1, num_2, num_1, num_6]
 j = 0 # Index that goes through pattern
 lanes = (36, 72, 108, 144, 180, 216, 252, 288, 324) # number lanes
 # Huell related images
-huell = pygame.image.load('images/huell/huell.png').convert_alpha() # huell
-battery = pygame.image.load('images/huell/battery.png').convert_alpha() # battery
+huell = pygame.image.load('images/Huell/huell.png').convert_alpha() # huell
+battery = pygame.image.load('images/Huell/battery.png').convert_alpha() # battery
 
 ################################## SPRITE CLASSES ##################################
 bat_go = False
