@@ -7,10 +7,10 @@ pygame.init()
 screen = pygame.display.set_mode((700,700), FULLSCREEN|SCALED)
 
 ################################## DECORATIONS ##################################
-court = pygame.image.load('images/interface/court.png').convert()
-border = pygame.image.load('images/interface/border.png').convert_alpha()
-speech = pygame.image.load('images/interface/speech.png').convert()
-_1216_ = pygame.image.load('images/interface/1216.png').convert_alpha()
+court = pygame.image.load('images/Interface/court.png').convert()
+border = pygame.image.load('images/Interface/border.png').convert_alpha()
+speech = pygame.image.load('images/Interface/speech.png').convert()
+_1216_ = pygame.image.load('images/Interface/1216.png').convert_alpha()
 # hammer frames
 hammer_0, hammer_1 = pygame.image.load("images/hammer/hammer_0.png").convert_alpha(), pygame.image.load("images/hammer/hammer_1.png").convert_alpha()
 hammer = []
